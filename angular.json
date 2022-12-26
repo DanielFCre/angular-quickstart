@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "outrageous-path": {
+    "angular-quickstart": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "outrageous-path:build:production"
+              "browserTarget": "angular-quickstart:build:production"
             },
             "development": {
-              "browserTarget": "outrageous-path:build:development"
+              "browserTarget": "angular-quickstart:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "outrageous-path:build"
+            "browserTarget": "angular-quickstart:build"
           }
         },
         "test": {
